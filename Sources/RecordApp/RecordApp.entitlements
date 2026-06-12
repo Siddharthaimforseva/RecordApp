@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Required for ScreenCaptureKit system audio -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+    <key>com.apple.security.device.audio-input</key>
+    <true/>
+    <!-- Process execution (whisper-cli) -->
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <array>
+        <string>(allow process-exec (literal "/opt/homebrew/bin/whisper-cli"))</string>
+        <string>(allow process-exec (literal "/usr/local/bin/whisper-cli"))</string>
+    </array>
+</dict>
+</plist>

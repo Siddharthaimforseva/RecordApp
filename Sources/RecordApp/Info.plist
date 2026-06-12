@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>RecordApp records your microphone so you appear in the meeting transcript.</string>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>RecordApp captures system audio to transcribe other meeting participants. No screen image is ever recorded.</string>
+    <key>CFBundleName</key>
+    <string>RecordApp</string>
+    <key>CFBundleDisplayName</key>
+    <string>RecordApp</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.recordapp.RecordApp</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>15.0</string>
+</dict>
+</plist>
